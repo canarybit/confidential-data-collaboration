@@ -1,3 +1,4 @@
+
 #ifndef WOLFSSL_ENCLAVE_U_H__
 #define WOLFSSL_ENCLAVE_U_H__
 

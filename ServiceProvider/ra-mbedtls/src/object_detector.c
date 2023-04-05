@@ -1,16 +1,22 @@
-/*#include "tensorflow/lite/c/c_api.h"
-#include "tensorflow/lite/c/c_api_experimental.h"
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/c/builtin_op_data.h"*/
+/*  Copyright 2021 Canary Bit AB
+
+*  Licensed under the Apache License, Version 2.0 (the "License");
+*  you may not use this file except in compliance with the License.
+*  You may obtain a copy of the License at
+*
+*       http://www.apache.org/licenses/LICENSE-2.0
+*
+*  Unless required by applicable law or agreed to in writing, software
+*  distributed under the License is distributed on an "AS IS" BASIS,
+*  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+*  See the License for the specific language governing permissions and
+*  limitations under the License.
+*/
+
+
 #include "ujpeg.h"
 #include "object_detector.h"
 
-/*#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>*/
-
-// Code Reference: https://quares.ru/?id=343207
-// Code Reference: https://cdmana.com/2021/01/20210107031229630z.html
 // Dispose of the model and interpreter objects.
 int disposeTfLiteObjects(TfLiteModel* m_Model, TfLiteInterpreter* m_Interpreter)
 {
