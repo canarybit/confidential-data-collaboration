@@ -2,6 +2,10 @@
 ## Confidential AI prototype
 ### Project homepage: https://dapsi.ngi.eu/hall-of-fame/cocem/
 
+### LICENCE
+The code is licenced under the Apache-2 licence. 
+Third-party code used in the project maintains its original licence
+and all due rights of the copyright holders.
 
 This repository consists of all resources that are used to build a confidential AI prototype, developed within the NGI DAPSI project called CoCEM (COnfidential Computing Enclaves for the Masses). Three main folders below are source code used for implementation:
 1. ServiceProvider = server repository who owns SGX capable machine
@@ -70,7 +74,5 @@ make
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./lib
 ./run_ra_mbedtls_on_linux.sh
 ```
-
-
 
 
