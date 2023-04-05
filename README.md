@@ -1,6 +1,9 @@
-# Master Thesis - Confidential Computing in Public Clouds
+# Project DAPSI CoCEM (COnfidential Computing Enclaves for the Masses)
+## Confidential AI prototype
+### Project homepage: https://dapsi.ngi.eu/hall-of-fame/cocem/
 
-This repository consists of all resources that are used to build a master thesis topic as written above. Three main folders below are source code used for implementation:
+
+This repository consists of all resources that are used to build a confidential AI prototype, developed within the NGI DAPSI project called CoCEM (COnfidential Computing Enclaves for the Masses). Three main folders below are source code used for implementation:
 1. ServiceProvider = server repository who owns SGX capable machine
 2. MLClient = client repository who owns a machine learning model
 3. DataClient = client repository who owns data for the machine learning model
