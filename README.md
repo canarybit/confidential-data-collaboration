@@ -1,4 +1,4 @@
-# Project DAPSI CoCEM (COnfidential Computing Enclaves for the Masses)
+# NGI DAPSI CoCEM (COnfidential Computing Enclaves for the Masses)
 ## Confidential AI prototype
 ### Project homepage: https://dapsi.ngi.eu/hall-of-fame/cocem/
 
